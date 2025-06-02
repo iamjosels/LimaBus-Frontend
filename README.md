@@ -42,6 +42,7 @@ npm run dev
 ⚠️ Asegúrate de que el backend de Laravel esté corriendo en el puerto correspondiente y permita solicitudes CORS.
 
 ```
+---
 
 ## 📁 Estructura de Carpetas
 
