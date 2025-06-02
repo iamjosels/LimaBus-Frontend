@@ -44,6 +44,7 @@ npm run dev
 ```
 ---
 
+```bash
 ## 📁 Estructura de Carpetas
 
 ├── public/                  # Archivos estáticos
@@ -74,6 +75,7 @@ npm run dev
 ├── tsconfig.json
 └── vite.config.ts
 
+```
 ---
 
 👨‍💻 Autor
