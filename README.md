@@ -8,10 +8,10 @@ Frontend del proyecto **LimaBus**, una plataforma web moderna y responsiva que p
 
 - **React** + **TypeScript**
 - **TailwindCSS** para estilos utilitarios
-- **Framer Motion** para animaciones
-- **React Router** para enrutamiento de páginas
-- **Vite** como bundler
-- **Lucide React** para iconos
+- **Framer Motion** para animaciones suaves
+- **React Router DOM** para enrutamiento entre páginas
+- **Vite** para desarrollo rápido
+- **Lucide-react** para iconografía moderna
 
 ---
 
@@ -39,16 +39,43 @@ npm install
 # Iniciar el servidor de desarrollo
 npm run dev
 
+⚠️ Asegúrate de que el backend de Laravel esté corriendo en el puerto correspondiente y permita solicitudes CORS.
+
+```
+---
+
 ## 📁 Estructura de Carpetas
 
-├── public/
+├── public/                  # Archivos estáticos
 ├── src/
-│   ├── components/        # Componentes reutilizables
-│   ├── pages/             # Páginas principales: Home, RouteList, RegisterRoute, Help
-│   ├── assets/            # Imágenes e íconos
-│   ├── App.tsx            # Enrutamiento principal
-│   └── main.tsx           # Entry point
+│   ├── assets/              # Iconos e imágenes SVG
+│   │   └── travel_mode.svg
+│   ├── components/          # Componentes reutilizables
+│   │   ├── FloatingButton.tsx
+│   │   ├── Modal.tsx
+│   │   ├── RouteForm.tsx
+│   │   ├── RouteList.tsx
+│   │   ├── Sidebar.tsx
+│   │   └── Toast.tsx
+│   ├── pages/               # Páginas principales
+│   │   ├── Dashboard.tsx
+│   │   ├── Help.tsx
+│   │   └── Home.tsx
+│   ├── services/
+│   │   └── api.ts           # Archivo para peticiones al backend
+│   ├── App.tsx              # Enrutamiento general
+│   ├── App.css              # Estilos globales
+│   ├── index.css
+│   └── main.tsx             # Entry point
+├── .gitignore
+├── index.html
+├── package.json
 ├── tailwind.config.ts
-├── vite.config.ts
-└── index.html
+├── tsconfig.json
+└── vite.config.ts
 
+---
+
+👨‍💻 Autor
+Desarrollado por José Giovanni Laura Silvera
+Estudiante de Ciencias de la Computación
