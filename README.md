@@ -30,7 +30,7 @@ Frontend del proyecto **LimaBus**, una plataforma web moderna y responsiva que p
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuUsuario/LimaBus-Frontend.git
+git clone https://github.com/iamjosels/LimaBus-Frontend.git
 cd LimaBus-Frontend
 
 # Instalar dependencias
