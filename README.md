@@ -44,9 +44,9 @@ npm run dev
 ```
 ---
 
-```bash
 ## 📁 Estructura de Carpetas
 
+```bash
 ├── public/                  # Archivos estáticos
 ├── src/
 │   ├── assets/              # Iconos e imágenes SVG
@@ -78,6 +78,6 @@ npm run dev
 ```
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Desarrollado por José Giovanni Laura Silvera
 Estudiante de Ciencias de la Computación
