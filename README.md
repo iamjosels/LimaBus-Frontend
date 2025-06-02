@@ -42,20 +42,36 @@ npm run dev
 ⚠️ Asegúrate de que el backend de Laravel esté corriendo en el puerto correspondiente y permita solicitudes CORS.
 
 ```
----
 
 ## 📁 Estructura de Carpetas
 
-├── public/
+├── public/                  # Archivos estáticos
 ├── src/
-│   ├── components/        # Componentes reutilizables
-│   ├── pages/             # Páginas principales: Home, RouteList, RegisterRoute, Help
-│   ├── assets/            # Imágenes e íconos
-│   ├── App.tsx            # Enrutamiento principal
-│   └── main.tsx           # Entry point
+│   ├── assets/              # Iconos e imágenes SVG
+│   │   └── travel_mode.svg
+│   ├── components/          # Componentes reutilizables
+│   │   ├── FloatingButton.tsx
+│   │   ├── Modal.tsx
+│   │   ├── RouteForm.tsx
+│   │   ├── RouteList.tsx
+│   │   ├── Sidebar.tsx
+│   │   └── Toast.tsx
+│   ├── pages/               # Páginas principales
+│   │   ├── Dashboard.tsx
+│   │   ├── Help.tsx
+│   │   └── Home.tsx
+│   ├── services/
+│   │   └── api.ts           # Archivo para peticiones al backend
+│   ├── App.tsx              # Enrutamiento general
+│   ├── App.css              # Estilos globales
+│   ├── index.css
+│   └── main.tsx             # Entry point
+├── .gitignore
+├── index.html
+├── package.json
 ├── tailwind.config.ts
-├── vite.config.ts
-└── index.html
+├── tsconfig.json
+└── vite.config.ts
 
 ---
 
