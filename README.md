@@ -79,5 +79,5 @@ npm run dev
 ---
 
 ## 👨‍💻 Autor
-Desarrollado por José Giovanni Laura Silvera
-Estudiante de Ciencias de la Computación
+- Desarrollado por José Giovanni Laura Silvera
+- Estudiante de Ciencias de la Computación
